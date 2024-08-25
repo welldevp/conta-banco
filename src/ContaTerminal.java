@@ -25,10 +25,10 @@ public class ContaTerminal {
         Double saldo = scr.nextDouble();       
 
         System.out.println();
-        System.out.printf("Olá! %s, obrigado  sua conta foi criada com sucesso!"  
+        System.out.printf("Olá! %s, obrigado por criar uma conta em nosso banco"  
         + "\n Sua conta é: %s "
         + "\n Sua agencia é: %s" 
-        + "\n seu saldo é de: %s", nome, conta, agencia, saldo);
+        + "\n seu saldo é de: %s já está disponível para saque", nome, conta, agencia, saldo);
 
         scr.close();
     }
